@@ -22,14 +22,14 @@ body {
     color: white;
     transition: 0.5s;
   }
-  #navbar a:hover {
+  /* #navbar a:hover {
     filter: blur(5px);
-  }
+  } */
   
-  #navbar a:hover {
+  /* #navbar a:hover {
     background:grey;
     filter: blur(0px);
-  }
+  } */
   .welcome   {
     font-family: sans-serif;
     font-size: 2rem;
@@ -109,15 +109,7 @@ body {
     height: auto;
   }
   
-  @media all and (max-width: 800px) {
-    #navbar {
-      justify-content: space-around;
-    }
-  
-    .tiles {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+
   
   
   
@@ -136,6 +128,16 @@ body {
       grid-template-columns: 1fr;
     }
   
+
+    @media all and (max-width: 800px) {
+      #navbar {
+        justify-content: space-around;
+      }
+    
+      .tiles {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
     @media only screen and (max-width: 600px) 
     body {
       background-color: lightblue;
